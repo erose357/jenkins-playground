@@ -10,10 +10,8 @@ After cloning the the repo:
 `docker-compose build`  
 `docker-compose up`  
 The app is available at http://localhost:8080  
-Follow the Post-Installation setup instructions [here](https://www.jenkins.io/doc/book/installing/docker/#setup-wizard)  
+Follow the Post-Installation setup instructions [here](https://www.jenkins.io/doc/book/installing/docker/#setup-wizard) 
+- note: I had to disconnect from VPN to install the plugins during setup  
+
 *Still working out communication between Jenkins and the local git repo*  
 Jenkins pipeline info [here](https://www.jenkins.io/doc/book/pipeline/)  
-
-
-
-
