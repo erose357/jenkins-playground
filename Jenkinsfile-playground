@@ -1,5 +1,3 @@
-# eventually add a library
-
 pipeline {
   agent any 
   stages {

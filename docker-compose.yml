@@ -30,7 +30,7 @@ services:
     volumes:
       - jenkins-data:/var/jenkins_home
       - jenkins-docker-certs:/certs/client:ro
-      - .:/var/jenkins_home/repo # trying to access local git repo
+      - .:/app # trying to access local git repo
 
 networks:
   jenkins:

@@ -11,3 +11,5 @@ RUN add-apt-repository \
 RUN apt-get update && apt-get install -y docker-ce-cli
 USER jenkins
 RUN jenkins-plugin-cli --plugins blueocean:1.24.4
+
+COPY . /app
